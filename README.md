@@ -11,7 +11,7 @@ use FanFou;
 my %oauth_consumer = key => 'your_consumer_key', secret => 'your_secret_key';
 
 # get client
-my $client = XAuth.new(oauth_consumer => %oauth_consumer, username => 'your_username', password => 'your_password');
+my $client = FanFou::XAuth.new(oauth_consumer => %oauth_consumer, username => 'your_username', password => 'your_password');
 
 # get response
 my $resp = from-json await $client.request('/statuses/home_timeline', 'GET').body-text;
