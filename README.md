@@ -18,7 +18,7 @@ my $resp = from-json await $client.request('/statuses/home_timeline', 'GET').bod
 say $resp.perl;
 
 # post a message
-my %body = 'status' => 'Hi, fan, I'm a robot';
+my %body = 'status' => "Hi, fan, I'm a robot";
 $client.request('/statuses/update', 'POST', %body);
 ```
 
