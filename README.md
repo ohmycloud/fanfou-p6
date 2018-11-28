@@ -6,7 +6,7 @@ The module provides several ways to authorize,  see [Fanfou API OAuth](https://g
 
 ## Write Your Own Robot
 
-![img](http://photo1.fanfou.com/v1/mss_3d027b52ec5a4d589e68050845611e68/ff/n0/0f/qm/xd_368058.jpg)
+![img](http://photo1.fanfou.com/v1/mss_3d027b52ec5a4d589e68050845611e68/ff/n0/0f/qm/xd_368058.jpg@596w_1l.jpg)
 
 ```perl6
 use FanFou;
